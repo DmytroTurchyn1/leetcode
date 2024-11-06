@@ -4,7 +4,7 @@ def removeSubfolders(folder):
     result = set()
     for x in folder:
         p = x.split("/")
-        parent_dir = '111'
+        parent_dir = '112345'
         for x in p[1:]:
 
             parent_dir += "/" + x

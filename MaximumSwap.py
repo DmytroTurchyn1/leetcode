@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num = int(input("Enter a number : "))
 
 def maximumSwap(num):
     res = [int(x) for x in str(num)]
