@@ -5,6 +5,7 @@ def removeSubfolders(folder):
         p = x.split("/")
         parent_dir = ''
         for x in p[1:]:
+
             parent_dir += "/" + x
             if parent_dir in result:
                 break
